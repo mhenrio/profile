@@ -8,6 +8,7 @@ font-family: 'Merriweather Sans', sans-serif;
 color: #031926
 font-size: 100px;
 line-height: normal;
+
 }
 
 a {
@@ -16,9 +17,9 @@ a {
 }
 
 
-
 .center {
-  text-align: center; /* This automatically sets left/right margins */
+  text-align: center;
+
 }
 
 
@@ -40,7 +41,6 @@ a {
   font-weight: lighter;
   font-size: 15px
   opacity: 0.8;
-
 
 }
 
@@ -64,13 +64,25 @@ background-position: center;
 color: white;
 padding-bottom: 40px;
 padding-top: 20px;
+margin: 0 auto;
+width: 650px;
+
 
 }
 
 .middle {
 
-margin-top: 100px;
+background-color: #dadddf;
+padding-bottom: 300px;
+margin-top: 40px;
+width: 650px;
+margin: 0 auto;
+margin-bottom: 20px;
+border-radius: 20px;
+
+
 }
+
 
 .footer {
   background-color: #8bbabb;
@@ -78,6 +90,9 @@ margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 20px;
+  width: 650px;
+  margin: 0 auto;
+
 }
 
 .button {
