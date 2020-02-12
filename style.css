@@ -15,29 +15,12 @@ a {
   color: #27496D;
 }
 
-p {
-
-  color: XXX;
-}
-
 
 
 .center {
   text-align: center; /* This automatically sets left/right margins */
 }
 
-
-
-/*. {
-text-align: center;
-background-image: url(images/jeremy_bishop_cetjeds_unsplash.jpg);
-background-size: cover;
-background-position: center;
-color: white;
-padding-bottom: 40px;
-padding-top: 40px;
-*/
-}
 
 .img-circle {
   border-radius: 50%;
@@ -51,33 +34,15 @@ padding-top: 40px;
 }
 
 .paragraph {
+  margin-bottom: 50px;
   color: white;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: lighter;
   font-size: 15px
   opacity: 0.8;
 
-}
-
-.button {
-  color: #27496D;
-  text-decoration: none;
 
 }
-
-/* a:hover {*/
-/*  text-align: center;*/
-/*  color: #00a8cc;*/
-/*}*/
-
-
-/*#footer h2{
-  text-align: left;
-  color: white;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: bold;
-  font-size: 16px
-}*/
 
 
 .list-inline > li {
@@ -94,10 +59,11 @@ padding-top: 40px;
 .header {
 background-image: url(images/jeremy_bishop_cetjeds_unsplash.jpg);
 background-size: cover;
+border-radius: 20px;
 background-position: center;
 color: white;
 padding-bottom: 40px;
-padding-top: 40px;
+padding-top: 20px;
 
 }
 
@@ -111,6 +77,19 @@ margin-top: 100px;
   margin-top: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.button {
+
+    background-color: #8bbabb;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.button:hover {
+background: #297ca0;
 }
 
 @media (max-width: 960px) {
